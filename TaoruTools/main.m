@@ -2,7 +2,7 @@
 //  main.m
 //  TaoruTools
 //
-//  Created by Shintaro Taya on 13/02/27.
+//  Created by taoru on 13/02/27.
 //  Copyright taoru 2013年. All rights reserved.
 //
 

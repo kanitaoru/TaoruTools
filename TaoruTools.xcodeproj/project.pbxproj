@@ -139,6 +139,9 @@
 		E2F799F716DD0E0F00BD33EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F799F616DD0E0F00BD33EC /* AppDelegate.m */; };
 		E2F799FA16DD0E0F00BD33EC /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F799F916DD0E0F00BD33EC /* HelloWorldLayer.m */; };
 		E2F799FD16DD0E0F00BD33EC /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F799FC16DD0E0F00BD33EC /* IntroLayer.m */; };
+		E2F79A0616DD0E7F00BD33EC /* TTSoftFollow.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F79A0516DD0E7F00BD33EC /* TTSoftFollow.m */; };
+		E2F79A0A16DD110D00BD33EC /* TestTTSoftFollowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F79A0916DD110D00BD33EC /* TestTTSoftFollowLayer.m */; };
+		E2F79A0D16DD11DE00BD33EC /* TTAbstractLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F79A0C16DD11DE00BD33EC /* TTAbstractLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -420,6 +423,12 @@
 		E2F799F916DD0E0F00BD33EC /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		E2F799FB16DD0E0F00BD33EC /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		E2F799FC16DD0E0F00BD33EC /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		E2F79A0416DD0E7F00BD33EC /* TTSoftFollow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTSoftFollow.h; path = Classes/TTSoftFollow.h; sourceTree = "<group>"; };
+		E2F79A0516DD0E7F00BD33EC /* TTSoftFollow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTSoftFollow.m; path = Classes/TTSoftFollow.m; sourceTree = "<group>"; };
+		E2F79A0816DD110D00BD33EC /* TestTTSoftFollowLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestTTSoftFollowLayer.h; path = Classes/TestTTSoftFollowLayer.h; sourceTree = "<group>"; };
+		E2F79A0916DD110D00BD33EC /* TestTTSoftFollowLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestTTSoftFollowLayer.m; path = Classes/TestTTSoftFollowLayer.m; sourceTree = "<group>"; };
+		E2F79A0B16DD11DE00BD33EC /* TTAbstractLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTAbstractLayer.h; path = Classes/TTAbstractLayer.h; sourceTree = "<group>"; };
+		E2F79A0C16DD11DE00BD33EC /* TTAbstractLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTAbstractLayer.m; path = Classes/TTAbstractLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -478,12 +487,7 @@
 		E2F7986716DD0E0C00BD33EC /* TaoruTools */ = {
 			isa = PBXGroup;
 			children = (
-				E2F799F516DD0E0F00BD33EC /* AppDelegate.h */,
-				E2F799F616DD0E0F00BD33EC /* AppDelegate.m */,
-				E2F799F816DD0E0F00BD33EC /* HelloWorldLayer.h */,
-				E2F799F916DD0E0F00BD33EC /* HelloWorldLayer.m */,
-				E2F799FB16DD0E0F00BD33EC /* IntroLayer.h */,
-				E2F799FC16DD0E0F00BD33EC /* IntroLayer.m */,
+				E2F79A0316DD0E4200BD33EC /* Classes */,
 				E2F7986816DD0E0C00BD33EC /* Resources */,
 				E2F7988016DD0E0C00BD33EC /* libs */,
 				E2F799F116DD0E0F00BD33EC /* Supporting Files */,
@@ -870,6 +874,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E2F79A0316DD0E4200BD33EC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E2F799F516DD0E0F00BD33EC /* AppDelegate.h */,
+				E2F799F616DD0E0F00BD33EC /* AppDelegate.m */,
+				E2F799F816DD0E0F00BD33EC /* HelloWorldLayer.h */,
+				E2F799F916DD0E0F00BD33EC /* HelloWorldLayer.m */,
+				E2F799FB16DD0E0F00BD33EC /* IntroLayer.h */,
+				E2F799FC16DD0E0F00BD33EC /* IntroLayer.m */,
+				E2F79A0716DD106600BD33EC /* TTSoftFollow */,
+				E2F79A0B16DD11DE00BD33EC /* TTAbstractLayer.h */,
+				E2F79A0C16DD11DE00BD33EC /* TTAbstractLayer.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E2F79A0716DD106600BD33EC /* TTSoftFollow */ = {
+			isa = PBXGroup;
+			children = (
+				E2F79A0416DD0E7F00BD33EC /* TTSoftFollow.h */,
+				E2F79A0516DD0E7F00BD33EC /* TTSoftFollow.m */,
+				E2F79A0816DD110D00BD33EC /* TestTTSoftFollowLayer.h */,
+				E2F79A0916DD110D00BD33EC /* TestTTSoftFollowLayer.m */,
+			);
+			name = TTSoftFollow;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1054,6 +1085,9 @@
 				E2F799F716DD0E0F00BD33EC /* AppDelegate.m in Sources */,
 				E2F799FA16DD0E0F00BD33EC /* HelloWorldLayer.m in Sources */,
 				E2F799FD16DD0E0F00BD33EC /* IntroLayer.m in Sources */,
+				E2F79A0616DD0E7F00BD33EC /* TTSoftFollow.m in Sources */,
+				E2F79A0A16DD110D00BD33EC /* TestTTSoftFollowLayer.m in Sources */,
+				E2F79A0D16DD11DE00BD33EC /* TTAbstractLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
